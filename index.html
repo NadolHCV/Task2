@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 2</title>
+</head>
+<body>
+    <h1> The SSH</h1>
+    <h2>This is how I use SSH and solved the upcoming problems</h2>
+    <h3> Task1 Install the arduino IDE ont the Ubuntu VM </h3>
+    <ul>
+        <li>First problem is the VM is dramatically slow, so I fixed it by increase all the memories and increase the amount of the processing core to 8 from 1</li>
+        <img src="./resources/processor.png" width="300">
+        <img src="./resources/motherboard.png" width="500">
+        <li>After installed arduino and get the Blink sketch I cannot find the port of the board.</li>
+        <img src="./resources/where is port.png " width="300">
+        <li> Then I found that you need to make the filter which port the VM can use.</li>
+        <img src="./resources/there is port.png" width="300">
+        <li>The task say 'build the Arduino sketch sample' so i decide to build a blink sample and change the delay to 5000</li>
+        <img src="./resources/blink but 5000.png" width="200">
+        <li> The board(I did not record the video of it processing apologise)</li>
+        <li> insert arduino board .jpg</li>
+    </ul>
+    <hr/>
+    <h3>Task 2 Installation of VS Code IDE software and extensions</h3>
+    <ul>
+        <li>I already have the VSCODE IDE and the Remote development Extensions</li>
+        <img src="./resources/remote dev.png" width="300">
+        <li> Then i connect the Vscode to the Ubuntu by SSH</li><ul>
+            <li>The way to do this is press F1 when you are in the VScode and a input section will pop up</li>
+            <img src="./resources/input section.png" width="300">
+            <li> Then add a destination by running this command</li>
+            <img src="./resources/command.png" width="300">
+            <li> Then connect</li>
+            <img src="./resources/connect to host.png" width="300">
+        </ul>
+        <li> Now I am successfully connect to my ubuntu Vm as you can see</li>
+        <img src="./resources/conjnected!.png" width="300">
+        <li> I am not entirely sure that is this because the PlatformIO or not that make me able to modify the VM as my another computer but now I can modify the VM remotely!</li>
+        <img src="./resources/remoted.png" width="300">
+        <li> And the rest of the process is the as same as Task 1</li>
+        
+        
+
+    </ul>
+    
+</body>
+</html>
